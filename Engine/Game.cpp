@@ -81,6 +81,7 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
+	// This is a test branch
 	snake.Draw(brd);
 	goal.Draw(brd);
 	if (gameIsOver) {
